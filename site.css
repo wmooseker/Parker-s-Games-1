@@ -1,0 +1,112 @@
+html {
+    --primary: #0f0f0f;
+    --secondary: #74B3CE;
+    --tertiary: #508991;
+    --highlight: #58355E;
+    --warning: E03616;
+    
+    
+}
+body{
+    background-color:#0f0f0f ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg-parker-primary {
+    background-color: var(--highlight);
+    color:white;
+}
+.btn-parker {
+    background-color: var(--highlight);
+    color:white;
+}
+.maintitle{
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: 10px solid var(--highlight)
+}
+
+.img-fluid {
+    border-radius:30px;
+}
+.card-img-top {
+    width:auto;
+    height: 120px;
+    max-height: 120px;
+    border-radius:30px;
+}
+.card-img-top.categorycardimg {
+    width:auto;
+    height: 200px;
+    max-height: 200px;
+    border-radius:30px;
+    
+}
+.card-img-overlay:hover {
+    cursor: pointer;
+    background-color:rgba(21, 19, 167, 0.473);
+    border-radius: 30px;
+}
+#categorytable {
+    
+    border-radius: 10px;
+    color:white;
+}
+#categorytable th {
+    font-size: 40px;
+}
+#categorytable tr {
+    border-bottom: 3px solid var(--highlight);
+}
+#categorytable tr:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--warning);
+    background-color: var(--highlight);
+    color:white;
+}
+#tagtable {
+    
+    border-radius: 10px;
+    color:white;
+}
+#tagtable th {
+    font-size: 40px;
+}
+#tagtable tr {
+    border-bottom: 3px solid var(--highlight);
+}
+#tagtable tr:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--warning);
+    background-color: var(--highlight);
+    color:white;
+}
+.carousel-img img {
+    width: auto;
+    height: 375px;
+    max-height: 375px;
+    border-radius: 20px;
+}
+
+.dropdown-content {
+    top:45px;
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+    color: #0f0f0f;
+}
+.dropdown-content a {
+    display: block;
+    background-color: white;
+    color: #0f0f0f;
+}
+.dropdown-content a:hover {
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+#tagresults {
+    color: white;
+}
